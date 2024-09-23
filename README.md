@@ -3,4 +3,4 @@ I did a fresher for a front-end basic stacks and this resulted in creating this 
 
 
 
-(https://iamjgm.github.io/portfolio-landing-page/
+https://iamjgm.github.io/portfolio-landing-page/
