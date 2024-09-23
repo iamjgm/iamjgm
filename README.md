@@ -1,16 +1,6 @@
-hi this is newly created git account. will update this soon. thanks
+Hi, I'm currently on my way up stacking other languages but
+I did a fresher for a front-end basic stacks and this resulted in creating this basic landing page for my portfolio. will update gradually. 🫰
 
 
 
-- 👋 Hi, I’m @iamjgm
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-iamjgm/iamjgm is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+iamjgm/basic-gallery](https://iamjgm.github.io/portfolio-landing-page/
