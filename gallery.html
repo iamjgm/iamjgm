@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="gallery-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+          <div class="wrapper">
+            <div class="logo"><h1>iamjgm</h1></div>
+            <div class="search"><input type="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="links">
+              <a href="">Home</a>
+              <a href="">About</a>
+              <a href="">Services</a>
+              <a href="">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div class="res-logo logo"><h1>iamjgm</h1></div>
+        <div class="hamburg"><i class="fa-solid fa-bars"></i></div>
+        <div class="navbar-responsive">
+          <div class="res-links">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Contact</a>
+            <div class="cancel"><i class="fa-solid fa-xmark"></i></div>
+          </div>
+        </div>
+    </nav>
+    <div class="res-search"><input type="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+    <section>
+      <div class="title">PHOTO GALLERY</div>
+      <div class="container">
+        <div class="image-container">
+          <div class="first">
+            <img src="./images/photo_2024-09-23_20-09-30.jpg">
+            <img src="./images/photo_2024-09-23_20-09-41.jpg">
+            <img src="./images/photo_2024-09-23_20-09-33.jpg">
+            <img src="./images/photo_2024-09-23_20-09-35.jpg">
+            <img src="./images/photo_2024-09-23_20-09-39.jpg">
+            <img src="./images/photo_2024-09-23_20-09-43.jpg">
+          </div> 
+          <div class="first">
+            <img src="./images/photo_2024-09-23_20-18-21.jpg">
+            <img src="./images/photo_2024-09-23_20-10-01.jpg">
+            <img src="./images/photo_2024-09-23_20-18-00.jpg">
+            <img src="./images/photo_2024-09-23_20-09-53.jpg">
+            <img src="./images/photo_2024-09-23_20-09-55.jpg">
+          </div> 
+          <div class="first">
+            <img src="./images/photo_2024-09-23_20-09-33.jpg">
+            <img src="./images/photo_2024-09-23_20-09-39.jpg">
+            <img src="./images/photo_2024-09-23_20-10-01.jpg">
+            <img src="./images/photo_2024-09-23_20-09-57.jpg">
+            <img src="./images/photo_2024-09-23_20-10-01.jpg">
+            <img src="./images/photo_2024-09-23_20-09-53.jpg">
+          </div>
+          <div class="first">
+              <img src="./images/photo_2024-09-23_20-09-57.jpg">
+              <img src="./images/photo_2024-09-23_20-10-04.jpg">
+              <img src="./images/photo_2024-09-23_20-18-22.jpg">
+              <img src="./images/photo_2024-09-23_20-10-01.jpg">
+              <img src="./images/photo_2024-09-23_20-09-57.jpg">
+              <img src="./images/photo_2024-09-23_20-18-20.jpg">
+              <img src="./images/photo_2024-09-23_20-18-18.jpg">
+              <img src="./images/photo_2024-09-23_20-09-59.jpg">
+          </div>
+          <div class="first">
+              <img src="./images/photo_2024-09-23_20-09-41.jpg">
+              <img src="./images/photo_2024-09-23_20-09-39.jpg">
+              <img src="./images/photo_2024-09-23_20-18-22.jpg">
+              <img src="./images/photo_2024-09-23_20-10-01.jpg">
+              <img src="./images/photo_2024-09-23_20-09-57.jpg">
+              <img src="./images/photo_2024-09-23_20-10-04.jpg">
+          </div>
+          <div class="first">
+              <img src="./images/photo_2024-09-23_20-18-24.jpg">
+              <img src="./images/photo_2024-09-23_20-18-22.jpg">
+              <img src="./images/photo_2024-09-23_20-10-01.jpg">
+              <img src="./images/photo_2024-09-23_20-09-57.jpg">
+              <img src="./images/photo_2024-09-23_20-18-21.jpg">
+              <img src="./images/photo_2024-09-23_20-09-59.jpg">
+          </div>
+          <div class="first">
+              <img src="./images/photo_2024-09-23_20-18-10.jpg">
+              <img src="./images/photo_2024-09-23_20-18-00.jpg">
+              <img src="./images/photo_2024-09-23_20-18-21.jpg">
+              <img src="./images/photo_2024-09-23_20-09-59.jpg">
+              <img src="./images/photo_2024-09-23_20-09-57.jpg">
+              <img src="./images/photo_2024-09-23_20-09-53.jpg">
+          </div>
+          <div class="first">
+              <img src="./images/photo_2024-09-23_20-18-22.jpg">
+              <img src="./images/photo_2024-09-23_20-18-21.jpg">
+              <img src="./images/photo_2024-09-23_20-09-35.jpg">
+              <img src="./images/photo_2024-09-23_20-09-59.jpg">
+              <img src="./images/photo_2024-09-23_20-18-00.jpg">
+          </div>
+      </div>
+    </div>  
+    </section>
+    <script>
+      const nav = document.querySelector('.hamburg');
+      const cancel = document.querySelector('.cancel');
+      const resNav = document.querySelector('.navbar-responsive');
+      nav.addEventListener('click', ()=>{
+        resNav.style.transform = 'translateY(0vh)'
+      })
+      
+      cancel.addEventListener('click', ()=>{
+        resNav.style.transform = 'translateY(-40vh)'
+      })
+
+    </script>
+</body>
+</html>
