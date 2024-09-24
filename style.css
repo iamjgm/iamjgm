@@ -255,7 +255,7 @@ span{
 @media(max-width:995px){
     .home{
         flex-direction: column;
-        margin: 1.5rem 1rem;
+        margin: 1.5rem 1.5rem;
         padding: 1rem;    
     }
 
